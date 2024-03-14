@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border = "1">
+		<!-- tr태그는 td나 th만 가질 수 있다. -->
+		<tr><td> 안녕! </td></tr>
+		<tr><td> 오늘은 목요일 </td></tr>
+	</table>
+	
+	<!-- <table border = "1" background = "images/seoul_map.png"> -->
+	<table border = "1" bordercolor = "#FF0000" bgcolor = "#8096BB">
+	<!-- width = "600" 보다 자식의 크기로 부모가 설정되도록 속성 설정 -->
+	<!-- 속성은 상속되므로 아래 th, td 태그를 사용 -->
+		<tr bgcolor = "#FEF2C4">
+			<th width = "100">번호</th> <!-- 제목을 보여줄 때는 th태그를 사용 -->
+			<th bgcolor = "4DA665" width = "150">이름</th>
+			<th width = "550">주소</th>
+		</tr>
+
+		<tr height = "30">
+			<td>1</td> <!-- 데이터를 보여줄 때는 td태그를 사용 -->
+			<td>홍길동</td>
+			<td>경기도 수원시 영통구</td>
+		</tr>
+
+		<tr height = "30">
+			<td>2</td> <!-- 데이터를 보여줄 때는 td태그를 사용 -->
+			<td>김개똥</td>
+			<td>경기도 수원시 영통구 망포동</td>
+		</tr>
+		
+		<tr height = "30">
+			<td>3</td> <!-- 데이터를 보여줄 때는 td태그를 사용 -->
+			<td>김아무</td>
+			<td>서울시 강남구 역삼동</td>
+		</tr>
+	</table>
+</body>
+</html>

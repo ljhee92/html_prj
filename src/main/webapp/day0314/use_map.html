@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Map</title>
+</head>
+<body>
+	<a href = "https://www.gangnam.go.kr/main.do" title = "강남구청" alt = "강남구청">
+	<img src = "http://localhost/html_prj/day0314/images/seoul_map.png"></a>
+	
+	<hr>
+	<strong>맵 사용</strong><br>
+	<map name = "seoulMap" id = "seoulMap">
+		<area shape = "rect" coords = "143, 243, 178, 271"
+		title = "동작구" href = "https://www.dongjak.go.kr/portal/main/main.do">
+		<area shape = "rect" coords = "134, 285, 182, 333"
+		title = "관악구" href = "https://www.gwanak.go.kr/">
+		<area shape = "circle" coords = "189, 190, 20"
+		title = "중구" href = "https://www.junggu.seoul.kr/main.do">
+	</map>
+	<img src = "http://localhost/html_prj/day0314/images/seoul_map.png" usemap = "#seoulMap">
+</body>
+</html>
